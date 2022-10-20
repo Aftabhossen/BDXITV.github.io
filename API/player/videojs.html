@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<a onclick="PlayVideo('https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8');">Play Video 1</a>
+<a onclick="PlayVideo('http://iptvbd.jagobd.com:1931/live-orgin/btvbd-office-sg.stream/chunks.m3u8');">Play Video 2</a>
+
+<div id="xxxxxx">
+    <div><a onclick="StopVideo();">X</a>
+         <video id="video" width="520" height="360" controls></video>
+    </div>
+</div>
+
+
+<script>
+    function PlayVideo(srcVideo) {
+        var video = document.getElementById('video');
+        var source = document.createElement('source');   
+        source.setAttribute('src', srcVideo);
+        video.appendChild(source);
+        video.play();
+    }
+
+    function StopVideo() {
+        document.getElementById('video').pause();
+    }
+</script>  
+</body>
+</html>

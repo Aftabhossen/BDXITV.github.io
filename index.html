@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TV SERVER</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <!--jquery-1.12.0.min.js-->
+    <script src="/assets/js/jquery-1.12.0.min.js"></script>
+    <!-- <script src="flowplayer/flowplayer.min.js"></script> -->
+
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <!--FontAwesome nin css -->
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css" />
+    <!-- <link rel="stylesheet" href="flowplayer/skin/skin.css"> -->
+    <!--Style css-->
+    <link rel="stylesheet" href="/assets/css/style2.css" />
+    <link href="//vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+    <script src="//vjs.zencdn.net/5.8/video.min.js"></script>
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <div class="nav-area">
+        <div class="container">
+          <div class="nav">
+            <div class="brand-logo">
+              <a href="/"><img src="http://10.16.100.244/assets/img/llg.png" alt="Ayna OTT" /></a>
+            </div>
+            <div class="nav-list">
+              <span class="btn">
+                <a href="#"> Sign Up / Login </a>
+              </span>
+              <span class="btn">
+                <a href="#" target="_blank"> FTP </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+           <video  id="player"
+         class="video-js vjs-default-skin ifream"controls preload="auto">
+    <source  name="tv" src="https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8" type="application/x-mpegURL" />
+</video>
+<script>
+    var player = videojs('#player');
+</script>
+    <!---<iframe
+      name="tv"
+      class="ifream" scrolling="no"
+      src="/api/player/"
+      allowfullscreen
+    ></iframe>--->
+
+
+
+      <div class="container">
+        <div class="category">
+          <div class="section-title">
+            <h2>Bangla Channels</h2>
+          </div>
+          <div class="channel-lists">
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/BTV.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/BTV-world.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.src='http://iptvbd.jagobd.com:1931/live-orgin/btvbd-office-sg.stream/chunks.m3u8'">
+              <img
+                src="http://10.16.100.244/assets/img/channels/bn/songshod-bangladesh.jpg"
+                alt=""
+              />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/BTV-Chattogram.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/ATN-Bangla.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Channel-I.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Bangla-Vision.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/boishakhi.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/N-tv.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Independent.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/maasranga.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Desh.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/my-tv.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/ATN-news.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Mohona.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Bihoy-tv.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Somoy.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Channer-9.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Channer-24.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/GB.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Asian.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/SA-tv.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Dipto.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Jamuna-tv.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/DBC.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/news-24.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/movie_bangla.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/nexus.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Annado-tv.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/global-tv.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/Bangla-talkies.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href=''">
+              <img src="http://10.16.100.244/assets/img/channels/bn/G-Tv.jpg" alt="" size="45%"/>
+            </a>
+          </div>
+        </div>
+        <div class="category">
+          <div class="section-title">
+            <h2>Hindi Channels</h2>
+          </div>
+          <div class="channel-lists">
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/Zee-zing.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/zee 24.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/zee-Hindhustan2.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/zee-news.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/zee-tv-hd.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/ZeeCafeHD.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/ZeeCinemaHD.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/zee-anmol.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/sony-8.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/sony-max.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/sony-pal.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/sony-pix.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/sony-sab-hd.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/sabSD.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/sony-wah.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/sony-yate.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/max-2.png" alt="" />
+            </a>
+            <!--  -->
+            <a href="https://aynaott.com/">
+              <img
+                src="http://10.16.100.244/assets/img/channels/hindi/animel-planet-hd.jpg"
+                alt=""
+              />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/discover-hd.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img
+                src="http://10.16.100.244/assets/img/channels/hindi/discover-science.jpg"
+                alt=""
+              />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/discover.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img
+                src="http://10.16.100.244/assets/img/channels/hindi/Investigation-Discovery-HD.jpg"
+                alt=""
+              />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/hd-tv.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/nationla-geo.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/tcl-hd.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/hindi/turbo.jpg" alt="" />
+            </a>
+            
+          </div>
+        </div>
+        <div class="category">
+          <div class="section-title">
+            <h2>English Channels</h2>
+          </div>
+          <div class="channel-lists">
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/en/Aljazeera.jpg" alt="" />
+            </a>
+
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/en/bbc-news.jpg" alt="" />
+            </a>
+
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/en/bbc-world-news.jpg" alt="" />
+            </a>
+
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/en/BBC-earth.jpg" alt="" />
+            </a>
+
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/en/cnn.jpg" alt="" />
+            </a>
+
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/en/NHK.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="category">
+          <div class="section-title">
+            <h2>Sports Channels</h2>
+          </div>
+          <div class="channel-lists">
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/sprts/sony-ten-1.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/sprts/Ten-2.jpg" alt="" />
+            </a>
+
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/sprts/ten-2-hd.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/sprts/sony-six.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/sprts/sony-ten-3.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/sprts/sony-ten-hd.jpg" alt="" />
+            </a>
+            <a herf="#" onclick="tv.location.href='http://stream.amrbd.com/play.php?stream=T-Sports'">
+              <img src="http://10.16.100.244/assets/img/channels/sprts/t-sports.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="category">
+          <div class="section-title">
+            <h2>Relagious Channels</h2>
+          </div>
+          <div class="channel-lists">
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/rlgn/madani.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/rlgn/madina.jpg" alt="" />
+            </a>
+            <a href="https://aynaott.com/">
+              <img src="http://10.16.100.244/assets/img/channels/rlgn/makkah-live.jpg" alt="" />
+            </a>
+ 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <sc
+    <!--Bootstrap min js-->
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <!--Owl filter js-->
+    <script src="/assets/js/jquery.owl-filter.js"></script>
+    <!--Owl carousel min js-->
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <!--Main js-->
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
